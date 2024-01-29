@@ -1,0 +1,14 @@
+input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--border-color);
+    padding: 12px;
+}
+
+::-ms-input-placeholder {
+    color: var(--text-placeholder-color);
+}
+
+::placeholder {
+    color: var(--text-placeholder-color);
+}
